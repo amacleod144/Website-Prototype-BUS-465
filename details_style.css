@@ -1,0 +1,76 @@
+body,html {
+  height: 100%;
+}
+
+body {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height:100%;
+    width:100%;
+}
+
+h2, h3 {
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0.5em;
+    width: 765px;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.submission {
+    margin: 0 auto;
+    padding: 0.5em;
+    width: 230px;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.background {
+  background: transparent url('detail_img.jpg') 0 0 no-repeat fixed;
+  text-align: center;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='detail_img.jpg', sizingMethod='scale');
+
+  height: 100%;
+  width: 100%;
+  display: table;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  .box {
+  display: inline-block;
+  margin: 0.2cm;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 225px;
+  padding: .5em .7em;
+  box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
